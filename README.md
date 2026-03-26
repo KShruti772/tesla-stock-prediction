@@ -19,6 +19,30 @@ This project predicts Tesla stock prices using Deep Learning (RNN & LSTM) and vi
 
 ## ⚙️ How to Run
 
-### 1. Install dependencies
+1. Install dependencies
 ```bash
 pip install -r requirements.txt
+
+2. Train model
+python train_model.py
+
+3. Run dashboard
+streamlit run app.py
+
+
+Run train_model.py to generate model
+
+
+📊 Results
+LSTM performs better than RNN
+Model captures trends effectively
+Predictions are smooth (limitation)
+
+⚠️ Limitations
+Cannot predict sudden market changes
+Uses only historical data
+
+💼 Use Cases
+Investment decision support
+Stock trend analysis
+Risk management
